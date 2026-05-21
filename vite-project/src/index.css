@@ -21,7 +21,7 @@ body {
     background-color: black;
     color: white;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden; /*to avoid sideways scrolling*/
 }
 
 @utility flex-center {

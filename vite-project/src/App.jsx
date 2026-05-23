@@ -2,7 +2,7 @@ import React from 'react';
 import gsap from 'gsap';
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
-// import { ScrollTrigger, SplitText } from "gsap/all";
+import Cocktails from './components/Cocktails.jsx';
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
@@ -14,6 +14,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <Cocktails />
 
     </main>
 
